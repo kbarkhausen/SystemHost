@@ -1,0 +1,156 @@
+﻿@model WebApp.Controllers.HomeModel
+
+<div class="code" style="margin-top: 20px;">
+    var dateTimeProxy = new System.DateTimeProxy();
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+        <td class="code">
+            httpContextProxy.DateTimeProxy.Now;
+        </td>
+        <td>@Model.DateTime.ToLongTimeString()</td>
+    </tr>   
+</table>
+
+<div class="code" style="margin-top: 20px;">
+    var directoryProxy = new System.IO.DirectoryProxy();
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+        <td class="code">
+            var directory = httpContextProxy.Server.MapPath("/") + "TestDirectory";<br />
+            directoryProxy.Exists(directory);
+        </td>
+        <td>@Model.DirectoryExists</td>
+    </tr>
+</table>
+
+<div class="code" style="margin-top: 20px;">
+    var fileProxy = new System.IO.FileProxy();
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+        <td class="code">
+            var file = directory + "\" + "TestFile.txt";<br />
+            fileProxy.Exists(file);
+        </td>
+        <td>@Model.FileExists</td>
+    </tr>
+</table>
+
+<div class="code" style="margin-top: 20px;">
+    var httpContextProxy = new SystemProxy.Web.HttpContextProxy();
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+        <td class="code">
+            httpContextProxy.Current.Server.MapPath("/");
+        </td>
+        <td>@Model.CurrentServerMapPath</td>
+    </tr>
+    <tr>
+        <td class="code">
+            httpContextProxy.Server.MapPath("/");
+        </td>
+        <td>@Model.ServerMapPath</td>
+    </tr>
+    <tr>
+        <td class="code">
+            httpContextProxy.Current.Items.Count
+        </td>
+        <td>@Model.CurrentItemsCount</td>
+    </tr>
+    <tr>
+        <td class="code">
+            httpContextProxy.Items.Count
+        </td>
+        <td>@Model.ItemsCount</td>
+    </tr>
+    <tr>
+        <td class="code">
+            httpContextProxy.Request.QueryString.Count
+        </td>
+        <td>@Model.RequestQueryString1</td>
+    </tr>
+    <tr>
+        <td class="code">
+            httpContextProxy.Current.Request.QueryString.Count
+        </td>
+        <td>@Model.RequestQueryString2</td>
+    </tr>
+</table>
+
+<div class="code" style="margin-top: 20px;">
+    var configurationManagerProxy = new SystemProxy.Configuration.ConfigurationManagerProxy();
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+        <td class="code">
+            configurationManagerProxy.AppSettings["item1"]
+        </td>
+        <td>@Model.ApplicationSetting</td>
+    </tr>   
+    <tr>
+        <td class="code">
+            configurationManagerProxy.ConnectionStrings["DefaultConnection"].ConnectionString
+        </td>
+        <td>@Model.ConnectionString</td>
+    </tr>   
+</table>
+
+<style>
+    table {
+        margin: 20px 0;
+    }
+
+    table, td {
+        border: solid 1px black;
+        border-collapse: collapse;
+    }
+
+        table td, table th {
+            font-size: 11px;
+            padding: 4px 8px;
+            vertical-align: top;
+        }
+
+        .code {
+            font-family: "Courier New", Courier, monospace;
+            white-space: nowrap;        
+        }
+</style>

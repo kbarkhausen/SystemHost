@@ -1,1 +1,1 @@
-nuget spec .\lib\SystemHost.dll
+nuget spec .\lib\SystemProxies.dll

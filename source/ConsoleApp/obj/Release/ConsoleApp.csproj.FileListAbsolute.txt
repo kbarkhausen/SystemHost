@@ -1,0 +1,8 @@
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Release\ConsoleApp.exe.config
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Release\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Release\ConsoleApp.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Release\SystemClassProxies.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Release\SystemClassProxies.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Release\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Release\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Release\ConsoleApp.pdb

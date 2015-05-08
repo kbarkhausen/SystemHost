@@ -1,0 +1,16 @@
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\bin\Debug\SystemClassProxies.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\ConsoleApp\bin\Debug\SystemClassProxies.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Debug\SystemClassProxies.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\bin\Debug\SystemClassProxies.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ConsoleApp\obj\Debug\ConsoleApp.pdb

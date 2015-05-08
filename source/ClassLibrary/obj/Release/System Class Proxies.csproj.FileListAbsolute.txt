@@ -1,0 +1,4 @@
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ClassLibrary\bin\Release\SystemClassProxies.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ClassLibrary\bin\Release\SystemClassProxies.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ClassLibrary\obj\Release\SystemClassProxies.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\ClassLibrary\obj\Release\SystemClassProxies.pdb

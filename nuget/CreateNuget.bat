@@ -1,1 +1,1 @@
-nuget pack SystemHost.nuspec
+nuget pack SystemProxies.nuspec

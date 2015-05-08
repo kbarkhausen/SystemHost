@@ -1,0 +1,5 @@
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\bin\Debug\SystemProxy.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\bin\Debug\SystemProxy.pdb
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\obj\Debug\SystemProxy.csprojResolveAssemblyReference.cache
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\obj\Debug\SystemProxy.dll
+C:\Data\Source Code\github\kbarkhausen\SystemHost\source\obj\Debug\SystemProxy.pdb
