@@ -1,0 +1,1 @@
+xcopy /y .\..\source\ClassLibrary\bin\Release\SystemClassProxies.dll .\..\..\..\..\nuget\lib\
